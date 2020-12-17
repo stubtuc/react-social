@@ -1,0 +1,17 @@
+{
+  "de": {
+    "translation": {
+      "lang": "Sprache",
+      "logo": "Poster",
+      "new_post_header": "Titel",
+      "new_post_message": "Nachrichtentext",
+      "create_post_btn_text": "Datensatz erstellen",
+      "news": "Nachrichten",
+      "delete": "Löschen",
+      "edit": "Bearbeiten",
+      "no-access-header": "Kein Zugang",
+      "no-access-text": "Sie sind dazu nicht berechtigt.",
+      "ok": "in Ordnung"
+    }
+  }
+}

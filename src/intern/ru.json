@@ -1,0 +1,17 @@
+{
+  "ru": {
+    "translation": {
+      "lang": "Язык",
+      "logo": "Постер",
+      "new_post_header": "Заголовок",
+      "new_post_message": "Текст сообщения",
+      "create_post_btn_text": "Создать пост",
+      "news": "Новости",
+      "delete": "Удалить",
+      "edit": "Редактировать",
+      "no-access-header": "Нет доступа",
+      "no-access-text": "У вас нет прав на это действие",
+      "ok": "Ок"
+    }
+  }
+}

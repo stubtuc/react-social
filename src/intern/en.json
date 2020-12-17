@@ -1,0 +1,17 @@
+{
+  "en": {
+    "translation": {
+      "lang": "Language",
+      "logo": "Poster",
+      "new_post_header": "Header",
+      "new_post_message": "Message text",
+      "create_post_btn_text": "Create post",
+      "news": "News",
+      "delete": "Delete",
+      "edit": "Edit",
+      "no-access-header": "No access",
+      "no-access-text": "You have no rights to do this.",
+      "ok": "Ok"
+    }
+  }
+}

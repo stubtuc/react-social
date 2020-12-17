@@ -1,0 +1,18 @@
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 23vh;
+}
+
+.link {
+    outline: none;
+    text-decoration: none;
+    color: dimgray;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
