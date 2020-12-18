@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Montserrat, serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -44,6 +46,7 @@ header {
 .language-list {
   display: block;
   position: absolute;
+  z-index: 5;
   background-color: white;
   border: 1px solid #E7EAEB;
   border-radius: 5px;
@@ -58,6 +61,7 @@ header {
 }
 
 .language-list li {
+  z-index: 6;
   padding: 15px;
   font-size: 12px;
   display: block;

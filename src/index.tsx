@@ -7,6 +7,7 @@ import AppContext from "./AppContext";
 import {AppContextType} from "./interfaces";
 import {Provider} from "react-redux";
 import store from "./store";
+import moment from "moment";
 
 const initialState:AppContextType = {
     users: [
@@ -28,7 +29,7 @@ const initialState:AppContextType = {
             id: 1,
             header: 'Post',
             text: 'Text',
-            date: 'Now',
+            date: moment().format(),
             likes: ['kek', 'lol', 'arbidol'],
             author: 'admin'
         }

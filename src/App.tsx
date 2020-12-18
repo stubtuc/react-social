@@ -34,7 +34,7 @@ const App:React.FC = () => {
         <h1>{ i18next.t('logo') }</h1>
           <div className='avatar' />
           <div className='language'>
-              <input type="button" id='switch' value={ i18next.t('lang') as string } onClick={() => setShowLanguageOption(true)} onBlur={() => setTimeout(() => setShowLanguageOption(false), 25)}/>
+              <input type="button" id='switch' value={ i18next.t('lang') as string } onClick={() => setShowLanguageOption(true)} onBlur={() => setTimeout(() => setShowLanguageOption(false), 150)}/>
               {
                   showLanguageOption && (
                       <ul className='language-list'>

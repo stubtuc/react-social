@@ -1,5 +1,6 @@
 import { createStore } from "redux";
 import {IPost} from "./interfaces";
+import moment from "moment";
 
 const ADD_POST = 'ADD_POST'
 const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT'
@@ -30,9 +31,9 @@ const initialState = {
     posts: [
         {
             id: 1,
-            header: 'Post',
-            text: 'Text',
-            date: 'Now',
+            header: 'Post header',
+            text: 'Post text',
+            date: moment().format(),
             likes: ['kek', 'lol', 'arbidol'],
             author: 'admin'
         }
